@@ -10,6 +10,9 @@
   "author": "Sean Trane Sciarrone",
   "publisher": "seantrane",
   "icon": "balanced-theme-icon.png",
+  "categories": [
+    "Themes"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/seantrane/balanced-theme-for-vscode",
   "repository": {
