@@ -41,7 +41,8 @@
     "@semantic-release/git": "^7.0.1",
     "husky": "^0.14.3",
     "markdownlint-cli": "^0.12.0",
-    "semantic-release": "^15.9.5"
+    "semantic-release": "^15.9.5",
+    "semantic-release-vsce": "^2.1.2"
   },
   "commitlint": {
     "extends": [
@@ -50,9 +51,8 @@
   },
   "release": {
     "verifyConditions": [
+      "semantic-release-vsce",
       "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/git",
       "@semantic-release/github"
     ],
     "prepare": [
@@ -61,17 +61,12 @@
         "changelogTitle": "# CHANGELOG"
       },
       {
-        "path": "@semantic-release/exec",
-        "cmd": "vsce package --out balanced-theme.vsix 1>&2"
-      },
-      "@semantic-release/npm",
-      "@semantic-release/git"
+        "path": "semantic-release-vsce",
+        "packageVsix": "balanced-theme.vsix"
+      }
     ],
     "publish": [
-      {
-        "path": "@semantic-release/exec",
-        "cmd": "vsce publish -p ${VSCE_TOKEN} ${nextRelease.gitTag} 1>&2"
-      },
+      "semantic-release-vsce",
       {
         "path": "@semantic-release/github",
         "assets": "balanced-theme.vsix"
