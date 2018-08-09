@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.0.2](https://github.com/seantrane/balanced-theme-for-vscode/compare/v1.0.1...v1.0.2) (2018-08-09)
+
+
+### Bug Fixes
+
+* add vscode-marketplace badges ([4d2ba7c](https://github.com/seantrane/balanced-theme-for-vscode/commit/4d2ba7c))
+* align package.json version with release/tag ([0fae359](https://github.com/seantrane/balanced-theme-for-vscode/commit/0fae359))
+
 # 1.0.0 (2018-08-08)
 
 
