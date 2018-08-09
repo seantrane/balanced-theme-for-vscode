@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/seantrane/balanced-theme-for-vscode.svg?branch=master)](https://travis-ci.com/seantrane/balanced-theme-for-vscode) [![devDependencies Status](https://david-dm.org/seantrane/balanced-theme-for-vscode/dev-status.svg)](https://david-dm.org/seantrane/balanced-theme-for-vscode?type=dev) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/seantrane.balanced-theme.svg)](https://marketplace.visualstudio.com/items?itemName=seantrane.balanced-theme) [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/r/seantrane.balanced-theme.svg)](https://marketplace.visualstudio.com/items?itemName=seantrane.balanced-theme) [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/seantrane.balanced-theme.svg)](https://marketplace.visualstudio.com/items?itemName=seantrane.balanced-theme)
+
 > _BalanceD_ is a syntax theme that was developed to be pleasing to the eye while maintaining a sense of semantic purpose.
 
 ![BalanceD Theme Screenshot: HTML, CSS, JS](https://raw.githubusercontent.com/seantrane/balanced-theme-for-vscode/master/balanced-theme-screenshot-html.png)
