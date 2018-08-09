@@ -53,6 +53,8 @@
     "verifyConditions": [
       "semantic-release-vsce",
       "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
       "@semantic-release/github"
     ],
     "prepare": [
@@ -60,6 +62,8 @@
         "path": "@semantic-release/changelog",
         "changelogTitle": "# CHANGELOG"
       },
+      "@semantic-release/npm",
+      "@semantic-release/git",
       {
         "path": "semantic-release-vsce",
         "packageVsix": "balanced-theme.vsix"
