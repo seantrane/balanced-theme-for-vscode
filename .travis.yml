@@ -7,9 +7,7 @@ cache:
     - ~/.npm
     - node_modules
 notifications:
-  email:
-    on_success: never
-    on_failure: change
+  email: false
 branches:
   only:
     - master
