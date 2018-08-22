@@ -85,6 +85,13 @@ npm install
 - To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 - To share your extension with the world, read on <https://code.visualstudio.com/docs> about publishing an extension.
 
+### VS Quick Links
+
+- [Developing Extensions](https://code.visualstudio.com/docs/extensions/developing-extensions)
+- [Publishing Extensions](https://code.visualstudio.com/docs/extensions/publish-extension)
+- [Optimizations in Syntax Highlighting](https://code.visualstudio.com/blogs/2017/02/08/syntax-highlighting-optimizations)
+- [Semantic release plugin for Visual Stuio Code extensions](https://github.com/raix/semantic-release-vsce/)
+
 ---
 
 ## File Structure <a id="file-structure"></a>
