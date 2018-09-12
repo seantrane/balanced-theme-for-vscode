@@ -13,15 +13,19 @@
   "categories": [
     "Themes"
   ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "BalanceD",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BalanceD-color-theme.json"
+      }
+    ]
+  },
   "license": "MIT",
   "homepage": "https://github.com/seantrane/balanced-theme-for-vscode",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seantrane/balanced-theme-for-vscode.git"
-  },
-  "bugs": {
-    "url": "https://github.com/seantrane/balanced-theme-for-vscode/issues"
-  },
+  "repository": "github:seantrane/balanced-theme-for-vscode",
+  "bugs": "https://github.com/seantrane/balanced-theme-for-vscode/issues",
   "engines": {
     "vscode": ">=1.0.0"
   },
