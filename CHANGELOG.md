@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.0.3](https://github.com/seantrane/balanced-theme-for-vscode/compare/v1.0.2...v1.0.3) (2018-09-12)
+
+
+### Bug Fixes
+
+* add color-theme config file [ci skip] ([1055e95](https://github.com/seantrane/balanced-theme-for-vscode/commit/1055e95))
+* **package:** add reference to color-theme config ([bbaec55](https://github.com/seantrane/balanced-theme-for-vscode/commit/bbaec55))
+
 ## [1.0.2](https://github.com/seantrane/balanced-theme-for-vscode/compare/v1.0.1...v1.0.2) (2018-08-09)
 
 
