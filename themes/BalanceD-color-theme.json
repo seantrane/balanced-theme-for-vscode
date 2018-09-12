@@ -1,0 +1,13 @@
+{
+  "tokenColors": "./BalanceD.tmTheme",
+  "colors": {
+    "editor.background": "#222222",
+    "editorCursor.foreground": "#A7A7A7",
+    "editor.foreground": "#F8F8F8",
+    "editorWhitespace.foreground": "#FFFFFF11",
+    "editor.lineHighlightBackground": "#00000033",
+    "editor.selectionBackground": "#00000066",
+    "editor.inactiveSelectionBackground": "#00000099"
+  },
+  "name": "BalanceD"
+}
