@@ -30,7 +30,6 @@
     "vscode": ">=1.0.0"
   },
   "scripts": {
-    "commitmsg": "commitlint -E GIT_PARAMS",
     "lint:md": "npm run markdownlint -- -i 'node_modules/' -c '.markdownlint.yaml' './'",
     "lint": "npm run lint:md",
     "markdownlint": "markdownlint",
@@ -52,6 +51,11 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "release": {
     "verifyConditions": [
