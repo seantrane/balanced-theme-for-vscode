@@ -22,7 +22,7 @@
       }
     ]
   },
-  "license": "MIT",
+  "license": "ISC",
   "homepage": "https://github.com/seantrane/balanced-theme-for-vscode#readme",
   "repository": "github:seantrane/balanced-theme-for-vscode",
   "bugs": "https://github.com/seantrane/balanced-theme-for-vscode/issues",
