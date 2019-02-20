@@ -50,7 +50,7 @@ Thank you for contributing.
 ## Clone the Repository <a id="clone-repo"></a>
 
 ```bash
-git clone https://github.com/seantrane/balanced-theme-for-vscode.git balanced-theme-for-vscode && cd balanced-theme-for-vscode
+git clone git@github.com:seantrane/balanced-theme-for-vscode.git balanced-theme-for-vscode && cd balanced-theme-for-vscode
 ```
 
 ## Install Dependencies <a id="install-dependencies"></a>
