@@ -13,11 +13,11 @@ notifications:
 branches:
   only:
     - master
-    - /^greenkeeper.*$/
+    - /^release.*$/
 before_install:
   # package-lock.json was introduced in npm@5
   - '[[ $(node -v) =~ ^v9.*$ ]] || npm install -g npm@latest' # skipped when using node 9
-  - npm install -g github-label-sync greenkeeper-lockfile vsce
+  - npm install -g github-label-sync vsce
 install:
   - travis_retry npm install
 stages:
@@ -31,11 +31,9 @@ jobs:
     - stage: test
       name: 'Checks and Tests'
       script:
-        - greenkeeper-lockfile-update
         - commitlint-travis
         - travis_retry github-label-sync -a "$GH_TOKEN" -l 'https://git.io/fAe5i' seantrane/balanced-theme-for-vscode
         - npm run lint
-        - greenkeeper-lockfile-upload
     - stage: deploy
       name: 'Publish and Release'
       script: npm run semantic-release
