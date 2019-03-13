@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.0.5](https://github.com/seantrane/balanced-theme-for-vscode/compare/v1.0.4...v1.0.5) (2019-03-13)
+
+
+### Bug Fixes
+
+* change to lighter gray for comments and doc-blocks ([9b1932c](https://github.com/seantrane/balanced-theme-for-vscode/commit/9b1932c))
+
 ## [1.0.4](https://github.com/seantrane/balanced-theme-for-vscode/compare/v1.0.3...v1.0.4) (2019-02-09)
 
 
