@@ -35,7 +35,7 @@
         <key>settings</key>
         <dict>
           <key>background</key> <string>#FFFFFF02</string>
-          <key>foreground</key> <string>#666666</string>
+          <key>foreground</key> <string>#777777</string>
         </dict>
       </dict>
       <dict>
@@ -287,7 +287,7 @@
         <key>scope</key>        <string>meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string</string>
         <key>settings</key>
         <dict>
-          <key>foreground</key> <string>#666666</string>
+          <key>foreground</key> <string>#777777</string>
         </dict>
       </dict>
       <dict>
